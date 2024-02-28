@@ -5,36 +5,40 @@
     font-optical-sizing: auto;
     font-weight: 700;
     font-style: normal;
-    border: 1px black solid;
     padding: 0;
     margin: 0;
 }
 
-.background {
-    display: flex;
+header {
     width: 100%;
-    height: 100%;
-    position: absolute;
-    object-fit: cover;
-    z-index: -1;
+    height: 100vh;
 }
 
 .filter {
-    top: 0;
-    height: 100%;
+    height: 100vh;
     width: 100%;
+    background: var(--color-secundary);
     position: absolute;
     z-index: -1;
-    background: rgba(0, 0, 0, 0.5);
 }
 
+.filter img {
+    opacity: 0.1;
+    width: 100%;
+    height: 100vh;
+    object-fit: cover;
+}
+
+nav {
+    width: 100%;
+    height: 10vh;
+}
 
 .container {
     display: flex;
     justify-content: space-between;
     align-items: center;
     color: #fff;
-    max-width: 1150px;
     padding: 1em 2em;
     margin: 0 auto;
 }
@@ -53,4 +57,21 @@ nav ul {
 
 nav ul li {
     margin: 8px;
+}
+
+.centralone {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    min-height: 90vh;
+}
+
+.centralone h2 {
+    color: #e58f00;
+    font-size: 50px;
+}
+
+.centralone p {
+    color: white;
 }
