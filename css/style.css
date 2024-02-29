@@ -22,6 +22,14 @@ header {
     z-index: -1;
 }
 
+.filter img {
+    opacity: 0.1;
+    width: 100%;
+    height: 100vh;
+    object-fit: cover;
+}
+
+
 .filter2 {
     height: 100vh;
     width: 100%;
@@ -33,15 +41,17 @@ header {
 .filter3 {
     width: 100%;
     background: var(--color-secundary);
-    position: absolute;
+    position: relative;
     z-index: -1;
 }
 
-.filter img {
-    opacity: 0.1;
+.filter4 {
+    height: auto;
     width: 100%;
-    height: 100vh;
-    object-fit: cover;
+    background: var(--color-secundary);
+    z-index: -1;
+    position: absolute;
+    
 }
 
 nav {
@@ -172,10 +182,6 @@ body {
 
 /* Pagina 3 */
 
-.tercerapagina {
-    outline: red 4px solid;
-}
-
 .tercerapagina h2 {
     color: white;
     font-size: 80px;
@@ -194,7 +200,6 @@ body {
 }
 
 .ourfoodinfo p{
-    outline:  red solid; 
     width: 600px;
     height: auto;
     justify-content: space-around;
@@ -230,9 +235,31 @@ body {
 
 /*pag4*/
 
-.filter4 {
-    width: 100%;
-    background: var(--color-secundary);
-    z-index: -1;
 
+.cuartapagina h1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+
+}
+
+
+.cuartapagina {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+}
+
+.galeriapics {
+    width: 90%;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.galeriapics img{
+    width: 30%;
+    padding: 20px;
 }
