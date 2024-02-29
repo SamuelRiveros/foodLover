@@ -22,6 +22,21 @@ header {
     z-index: -1;
 }
 
+.filter2 {
+    height: 100vh;
+    width: 100%;
+    background: var(--color-secundary);
+    position: absolute;
+    z-index: -1;
+}
+
+.filter3 {
+    width: 100%;
+    background: var(--color-secundary);
+    position: absolute;
+    z-index: -1;
+}
+
 .filter img {
     opacity: 0.1;
     width: 100%;
@@ -119,7 +134,7 @@ nav ul li {
     justify-content: center;
     align-items: center;
     width: 100%;
-    min-height: 90vh;
+    min-height: 100vh;
 }
 
 .Segundapagina img {
@@ -148,4 +163,76 @@ nav ul li {
 .Segundapagina p {
     color: white;
     font-size: 30px;
+}
+
+body {
+    background-color: white;
+}
+
+
+/* Pagina 3 */
+
+.tercerapagina {
+    outline: red 4px solid;
+}
+
+.tercerapagina h2 {
+    color: white;
+    font-size: 80px;
+}
+
+.tercerapagina p {
+    color: white;
+    font-size: 30px;
+}
+
+.ourfoodinfo {
+    position: absolute;
+    top: 30%;
+    left: 10%;
+
+}
+
+.ourfoodinfo p{
+    outline:  red solid; 
+    width: 600px;
+    height: auto;
+    justify-content: space-around;
+    align-items: center;
+
+}
+
+.amarishito{
+    margin-top: 200px;
+    width: 100%;
+}
+
+.terpic1 {
+    position: absolute;
+    height: 1100px;
+    top: 0px;
+    right: 0px;
+}
+
+.terpic2 {
+    position: absolute;
+    width: 60%;
+    top: 1100px;
+    right: 0px;
+}
+
+.terpic3 {
+    position: absolute;
+    height: 800px;
+    top: 1600px;
+    left: 0px;
+}
+
+/*pag4*/
+
+.filter4 {
+    width: 100%;
+    background: var(--color-secundary);
+    z-index: -1;
+
 }
