@@ -100,6 +100,21 @@ nav ul li {
     min-height: 90vh;
 }
 
+.centralone img {
+    transform-style: preserve-3d;
+    object-fit: contain;
+    transform-origin: left top;
+    transition: 1s;
+}
+.centralone img:hover {
+    filter: drop-shadow(15px 8px 8px rgb(255, 102, 0));
+    cursor: pointer;
+    transform-style: preserve-3d;
+    transform-origin: left top;
+    transform: translateX(40px) rotateZ(7deg);
+    transition: 1s;
+}
+
 .centralinfo {
     display: flex;
     /* outline:  red solid; */
