@@ -39,6 +39,7 @@ header {
 }
 
 .filter3 {
+    height: 2600px;
     width: 100%;
     background: var(--color-secundary);
     position: relative;
@@ -46,11 +47,12 @@ header {
 }
 
 .filter4 {
-    height: auto;
+    height: 1500px;
     width: 100%;
     background: var(--color-secundary);
     z-index: -1;
     position: absolute;
+    /* border: red 2px solid; */
     
 }
 
@@ -253,6 +255,7 @@ body {
 }
 
 .galeriapics {
+    margin-top: 40px;
     width: 90%;
     display: flex;
     justify-content: center;
