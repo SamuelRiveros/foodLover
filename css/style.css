@@ -53,8 +53,14 @@ header {
     background: var(--color-secundary);
     z-index: -1;
     position: relative;
-    /* border: red 2px solid; */
-    
+    /* border: red 2px solid; */   
+}
+
+.filter5 {
+    height: auto;
+    width: 100%;
+    position: absolute;;
+    background: var(--color-secundary);
 }
 
 nav {
@@ -301,4 +307,42 @@ body {
     padding:2rem 10rem 10rem 10rem;
     font-size: 1.3rem;
     color: white;
+}
+
+/* Sexta pagina */
+
+.sextapagina {
+    margin-top: 150px;
+}
+
+.sextapagina h1 {
+    text-align: center;
+    color: white;
+    font-size: 50px;
+    padding-bottom: 2em;
+}
+
+.sextapagina h2 {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    color: #e58f00;
+    font-size: 25px;
+}
+
+.sextapagina h3 {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    color: #e58f00;
+    font-size: 25px;
+}
+
+.sextapagina p {
+    width: 400px;
+    color: white;
+}
+
+.menuss {
+    display: flex;
+    justify-content: space-evenly;
+    padding: 1em 1em;
 }
